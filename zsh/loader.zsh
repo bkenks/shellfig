@@ -9,7 +9,6 @@ CONFIG_ORDER=(
     "default.zsh"
     "aliases.zsh"
     "binaries.zsh"
-    "exports.zsh"
     "antigen.zsh"
     "antigen-bundles.zsh"
 )
