@@ -2,6 +2,7 @@ alias c='clear'
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
+alias lx_update="curl -fsSL https://raw.githubusercontent.com/bkenks/lazymux/main/installer.sh | sh"
 alias lx="lazymux"
 alias reload="exec zsh"
 alias s="kitten ssh"
