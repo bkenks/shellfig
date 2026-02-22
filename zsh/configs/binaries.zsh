@@ -7,6 +7,13 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPRIVATE=$GO_URL
 export GONOSUMDB=$GO_URL
 
+# Flutter
+export PATH=$HOME/Development/sdks/flutter/bin:$PATH
+
+# uv
+export PATH="/Users/briankenkel/.local/bin:$PATH"
+
+
 # --- NVM ---
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
