@@ -2,7 +2,10 @@
 eval "$(starship init zsh)"
 
 # Go
+GO_URL="gitea.homektb.com"
 export PATH=$PATH:/usr/local/go/bin
+export GOPRIVATE=$GO_URL
+export GONOSUMDB=$GO_URL
 
 # --- NVM ---
 export NVM_DIR="$HOME/.nvm"
@@ -13,7 +16,6 @@ export NVM_DIR="$HOME/.nvm"
 # OS Dependent
 # =====================================================
 # Tags: configure_post_clone
-
 
 # -----------------------------------------------------
 # Homebrew
@@ -28,7 +30,6 @@ export NVM_DIR="$HOME/.nvm"
 # -----------------------------------------------------
 # END "Homebrew"
 # -----------------------------------------------------
-
 
 # =====================================================
 # END "OS Dependent"
