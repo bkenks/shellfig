@@ -1,3 +1,5 @@
+alias ap="ansible-playbook"
+alias av="ansible-vault"
 alias c='clear'
 alias l='ls -CF'
 alias la='ls -A'
